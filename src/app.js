@@ -3,9 +3,9 @@ import { nanoid } from 'nanoid'
 
 import './app.css'
 
-import Footer from './component/footer'
-import NewTaskForm from './component/new-task-form'
-import TaskList from './component/task-list'
+import Footer from './components/footer'
+import NewTaskForm from './components/new-task-form'
+import TaskList from './components/task-list'
 
 const App = () => {
   const [todoData, setTodoData] = useState([])
